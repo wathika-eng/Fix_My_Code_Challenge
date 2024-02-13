@@ -1,0 +1,26 @@
+current directory: /home/wathi/Documents/Fix_My_Code_Challenge/blog/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/home/wathi/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/wathi/Documents/Fix_My_Code_Challenge/blog/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240212-102666-2m1n3k sitelibdir\=./.gem.20240212-102666-2m1n3k clean
+
+current directory: /home/wathi/Documents/Fix_My_Code_Challenge/blog/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240212-102666-2m1n3k sitelibdir\=./.gem.20240212-102666-2m1n3k
+compiling websocket_mask.c
+websocket_mask.c: In function ‘Init_websocket_mask’:
+websocket_mask.c:10:1: warning: old-style function definition [-Wold-style-definition]
+   10 | Init_websocket_mask()
+      | ^~~~~~~~~~~~~~~~~~~
+websocket_mask.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+linking shared-object websocket_mask.so
+
+current directory: /home/wathi/Documents/Fix_My_Code_Challenge/blog/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240212-102666-2m1n3k sitelibdir\=./.gem.20240212-102666-2m1n3k install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20240212-102666-2m1n3k
+
+current directory: /home/wathi/Documents/Fix_My_Code_Challenge/blog/vendor/bundle/ruby/3.3.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240212-102666-2m1n3k sitelibdir\=./.gem.20240212-102666-2m1n3k clean

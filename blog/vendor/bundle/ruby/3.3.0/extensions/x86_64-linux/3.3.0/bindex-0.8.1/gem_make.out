@@ -1,0 +1,18 @@
+current directory: /home/wathi/Documents/Fix_My_Code_Challenge/blog/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/home/wathi/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/wathi/Documents/Fix_My_Code_Challenge/blog/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240212-102666-e68agm sitelibdir\=./.gem.20240212-102666-e68agm clean
+
+current directory: /home/wathi/Documents/Fix_My_Code_Challenge/blog/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240212-102666-e68agm sitelibdir\=./.gem.20240212-102666-e68agm
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/wathi/Documents/Fix_My_Code_Challenge/blog/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240212-102666-e68agm sitelibdir\=./.gem.20240212-102666-e68agm install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20240212-102666-e68agm/skiptrace/internal
+
+current directory: /home/wathi/Documents/Fix_My_Code_Challenge/blog/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240212-102666-e68agm sitelibdir\=./.gem.20240212-102666-e68agm clean

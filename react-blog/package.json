@@ -5,37 +5,41 @@
   "author": "Jonathan Rossi <jonathan.m.rossi@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "alt": "^0.14.5",
-    "babel": "^4.7.16",
-    "body-parser": "^1.12.3",
-    "cookie-parser": "^1.3.4",
-    "express": "^4.12.3",
-    "express-session": "^1.10.4",
-    "iso": "^4.0.2",
+    "alt": "^0.18.6",
+    "babel": "^6.23.0",
+    "babel-runtime": "^6.26.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "iso": "^5.2.0",
     "jade": "^1.9.2",
-    "marked": "^0.3.5",
-    "moment": "^2.10.2",
-    "react": "^0.13.1",
-    "react-bootstrap": "^0.26.2",
-    "react-ga": "^2.1.2",
-    "react-router": "^0.13.2",
-    "superagent": "^1.1.0"
+    "marked": "^12.0.0",
+    "moment": "^2.30.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-ga": "^3.3.1",
+    "react-router": "^6.22.0",
+    "superagent": "^8.1.2"
   },
   "devDependencies": {
-    "browserify": "^9.0.3",
-    "gulp": "^3.8.11",
-    "gulp-clean": "^0.3.2",
-    "gulp-concat": "^2.6.0",
+    "@babel/core": "^7.23.9",
+    "@babel/register": "^7.23.7",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "browserify": "^17.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
     "gulp-minify-css": "^1.2.4",
-    "gulp-nodemon": "^2.0.2",
-    "gulp-print": "^2.0.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.1",
-    "gulp-uglify": "^1.5.4",
-    "nodemon": "^1.3.7",
-    "reactify": "^1.1.0",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "gulp-nodemon": "^2.2.1",
+    "gulp-print": "^5.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "nodemon": "^3.0.3",
+    "reactify": "^1.1.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
   },
   "paths": {
     "app": "./src/client.js"
@@ -47,5 +51,8 @@
   "main": "bin/www.js",
   "scripts": {
     "start": "node --use_strict bin/www.js"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
   }
 }

@@ -1,2 +1,2 @@
-require("babel/register")({experimental: true});
-require('../app');
+require('@babel/register')({ experimental: true })
+require('../app')
